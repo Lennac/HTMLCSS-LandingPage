@@ -156,6 +156,10 @@ section { display: flex; }
     content: "";
     position: absolute;
     border: 1px solid #ffffff;
+    top: 30px;
+    bottom: 30px;
+    left: 50px;
+    right: 50px;
     z-index: 1;
 }
 
@@ -204,7 +208,7 @@ section { display: flex; }
     letter-spacing: 3px;
 }
 
-.full-banner-sidebar.btn.btn-feault {
+.full-banner-sidebar .btn.btn-feault {
     margin-top: 50px;
     text-transform: uppercase;
     letter-spacing: 1px;
